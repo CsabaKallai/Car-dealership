@@ -1,0 +1,27 @@
+.tabs-content {
+    margin-left: 30px;
+    text-align: left;
+    display: inline-block;
+    transition: all 0.3s;
+  }
+
+  .main-button a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 20px;
+    background-color: #ed563b;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s;
+  }
+  
+  .main-button a:hover {
+    background-color: #f9735b;
+    color: #fff;
+  }
+
+  .mar-15{
+    margin: 15% auto;
+  }

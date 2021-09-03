@@ -9,6 +9,14 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './forms/contact/contact.component';
 import { AboutComponent } from './forms/about/about.component';
 import { HomeComponent } from './components/home/home.component';
+import { BlogComponent } from './forms/blog/blog.component';
+import { ModelsComponent } from './models/models/models.component';
+import { ModelXComponent } from './models/model-x/model-x.component';
+import { ModelMComponent } from './models/model-m/model-m.component';
+import { ModelIComponent } from './models/model-i/model-i.component';
+import { Model5Component } from './models/model5/model5.component';
+import { Model3Component } from './models/model3/model3.component';
+import { Model7Component } from './models/model7/model7.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +26,14 @@ import { HomeComponent } from './components/home/home.component';
     ContactComponent,
     AboutComponent,
     HomeComponent,
+    BlogComponent,
+    ModelsComponent,
+    ModelXComponent,
+    ModelMComponent,
+    ModelIComponent,
+    Model5Component,
+    Model3Component,
+    Model7Component,
   ],
   imports: [
     BrowserModule,

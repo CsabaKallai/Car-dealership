@@ -8,7 +8,6 @@
     </head>
     
     <body>
-    <!-- ***** Main Banner Area Start ***** -->
     <div class="main-banner" id="top">
         <video autoplay muted loop id="bg-video">
             <source src="../../../assets/HomeImages/video.mp4" type="video/mp4" />
@@ -16,15 +15,14 @@
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h6>Lorem ipsum dolor sit amet</h6>
-                <h2>Best <em>car dealer</em> in town!</h2>
+                <h6>Győr, Szauter Ferenc u. 9</h6>
+                <h2>Leier <em>auto</em>kereskedés!</h2>
                 <div class="main-button">
-                    <a href="contact.html">Contact Us</a>
+                    <a href="../../forms/contact/contact.component.ts">Vegye fel velünk a kapcsolatot</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- ***** Main Banner Area End ***** -->
 
    <!-- ***** Cars Starts ***** -->
     <section class="section" id="trainers">
@@ -32,9 +30,9 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
-                        <h2>Featured <em>Cars</em></h2>
+                        <h2>Kiemelt <em>ajánlatok</em></h2>
                         <img src="../../../assets/HomeImages/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <!-- <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p> -->
                     </div>
                 </div>
             </div>
@@ -42,23 +40,23 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="../../../assets/HomeImages/product-1-720x480.jpg" alt="">
+                            <img src="../../../assets/HomeImages/bmw5.jpg" alt="">
                         </div>
                         <div class="down-content">
                             <span>
-                                <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
+                                <del><sup>Ft</sup>9.990.000 </del> &nbsp; <sup>Ft</sup>8.990.000
                             </span>
 
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                            <h4>BMW 530D</h4>
 
                             <p>
                                 <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 3000 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> automata &nbsp;&nbsp;&nbsp;
                             </p>
 
                             <ul class="social-icons">
-                                <li><a href="car-details.html">+ View Car</a></li>
+                                <li><a href="#">+ Mutass többet</a></li>
                             </ul>
                         </div>
                     </div>
@@ -66,23 +64,23 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="../../../assets/HomeImages/product-2-720x480.jpg" alt="">
+                            <img src="../../../assets/HomeImages/product-5-720x480.jpg" alt="">
                         </div>
                         <div class="down-content">
                             <span>
-                                <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
+                                <del><sup>Ft</sup>11.990.000 </del> &nbsp; <sup>Ft</sup>11.500.000
                             </span>
 
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                            <h4>BMW M2</h4>
 
                             <p>
-                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-dashboard"></i> 52 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 2998 cc &nbsp;&nbsp;&nbsp;
                                 <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
                             </p>
 
                             <ul class="social-icons">
-                                <li><a href="car-details.html">+ View Car</a></li>
+                                <li><a href="car-details.html">+ Mutass többet</a></li>
                             </ul>
                         </div>
                     </div>
@@ -90,23 +88,23 @@
                 <div class="col-lg-4">
                     <div class="trainer-item">
                         <div class="image-thumb">
-                            <img src="../../../assets/HomeImages/product-3-720x480.jpg" alt="">
+                            <img src="../../../assets/HomeImages/bmwx5.jpg" alt="">
                         </div>
                         <div class="down-content">
                             <span>
-                                <del><sup>$</sup>11999 </del> &nbsp; <sup>$</sup>11779
+                                <del><sup>Ft</sup>7.500.000 </del> &nbsp; <sup>Ft</sup>6.990.000
                             </span>
 
-                            <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                            <h4>BMW X5</h4>
 
                             <p>
-                                <i class="fa fa-dashboard"></i> 130 000km &nbsp;&nbsp;&nbsp;
-                                <i class="fa fa-cube"></i> 1800 cc &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-dashboard"></i> 85 000km &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cube"></i> 2000 cc &nbsp;&nbsp;&nbsp;
                                 <i class="fa fa-cog"></i> Manual &nbsp;&nbsp;&nbsp;
                             </p>
 
                             <ul class="social-icons">
-                                <li><a href="car-details.html">+ View Car</a></li>
+                                <li><a href="car-details.html">+ Mutass többet</a></li>
                             </ul>
                         </div>
                     </div>
@@ -116,7 +114,7 @@
             <br>
 
             <div class="main-button text-center">
-                <a href="cars.html">View Cars</a>
+                <a routerLink="Models">Autók áttekintése</a>
             </div>
         </div>
     </section>
@@ -176,25 +174,7 @@
 
                     <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
                     <div class="main-button">
-                        <a href="blog-details.html">Continue Reading</a>
-                    </div>
-                  </article>
-                  <article id='tabs-2'>
-                    <img src="../../../assets/HomeImages/blog-image-2-940x460.jpg" alt="">
-                    <h4>Aspernatur excepturi magni, placeat rerum nobis magnam libero! Soluta.</h4>
-                    <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
-                    <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    <div class="main-button">
-                        <a href="blog-details.html">Continue Reading</a>
-                    </div>
-                  </article>
-                  <article id='tabs-3'>
-                    <img src="../../../assets/HomeImages/blog-image-3-940x460.jpg" alt="">
-                    <h4>Sunt hic recusandae vitae explicabo quidem laudantium corrupti non adipisci nihil.</h4>
-                    <p><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10 &nbsp;|&nbsp; <i class="fa fa-comments"></i>  15 comments</p>
-                    <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
-                    <div class="main-button">
-                        <a href="blog-details.html">Continue Reading</a>
+                        <a routerLink="../Blog">Continue Reading</a>
                     </div>
                   </article>
                 </section>
@@ -206,7 +186,7 @@
 
     <!-- ***** Call to Action Start ***** -->
     <section class="section section-bg" id="call-to-action" style="background-image: url(../../../assets/HomeImages/banner-image-1-1920x500.jpg)">
-        <div class="container">
+        <div class="container mr-auto">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
@@ -226,7 +206,7 @@
     <section class="section" id="features">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 offset-lg-3">
+                <div class="col-lg-6 offset-lg-3 mr-1r">
                     <div class="section-heading">
                         <h2>Read our <em>Testimonials</em></h2>
                         <img src="../../../assets/HomeImages/line-dec.png" alt="waves">
@@ -278,34 +258,17 @@
                     </ul>
                 </div>
             </div>
-
-            <br>
-
-            <div class="main-button text-center">
-                <a href="testimonials.html">Read More</a>
-            </div>
         </div>
     </section>
-    <!-- ***** Testimonials Item End ***** -->
-    
     
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins -->
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/imgfix.min.js"></script> 
     <script src="assets/js/mixitup.js"></script> 
     <script src="assets/js/accordions.js"></script>
-    
-    <!-- Global Init -->
+
     <script src="assets/js/custom.js"></script>
 
   </body>
