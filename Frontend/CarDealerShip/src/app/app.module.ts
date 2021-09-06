@@ -17,6 +17,7 @@ import { ModelIComponent } from './models/model-i/model-i.component';
 import { Model5Component } from './models/model5/model5.component';
 import { Model3Component } from './models/model3/model3.component';
 import { Model7Component } from './models/model7/model7.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,8 @@ import { Model7Component } from './models/model7/model7.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

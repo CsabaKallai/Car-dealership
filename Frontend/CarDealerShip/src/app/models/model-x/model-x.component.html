@@ -1,1 +1,15 @@
-<p>model-x works!</p>
+<div class="models-list">
+    <div *ngFor="let item of datas" class="container">
+            <div class="models-img">
+                <img src="{{item.Picture}}">
+            </div>
+            <div class="model-details">
+                <p>{{item.Name}}</p>
+                <p>Fogyasztás: {{item.Miles_per_Gallon}}</p>
+                <p>Hengerek száma: {{item.Cylinders}}</p>
+                <p>Teljesítmény: {{item.Horsepower}}</p>
+                <p>Súly: {{item.Weight_in_lbs}}</p>
+                <p>Gyorsulás: {{item.Acceleration}}</p>
+            </div>
+    </div>
+</div>
