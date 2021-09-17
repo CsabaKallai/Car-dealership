@@ -25,3 +25,15 @@
   .mar-15{
     margin: 15% auto;
   }
+
+  .blog-wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+
+  .pic{
+    width:100%;
+    height: auto;
+  }
+

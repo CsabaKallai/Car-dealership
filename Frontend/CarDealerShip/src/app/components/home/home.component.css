@@ -75,6 +75,14 @@ p {
   margin-right: 1rem;
 }
 
+#tabs li a:hover{
+  background-color: rgba(0,0,0, .3)!important;
+}
+
+#tabs-1 p{
+  text-align: justify;
+}
+
 /* 
 ---------------------------------------------
 global styles
