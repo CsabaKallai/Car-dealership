@@ -18,7 +18,7 @@
                 <h6>Győr, Szauter Ferenc u. 9</h6>
                 <h2>Leier <em>auto</em>kereskedés!</h2>
                 <div class="main-button">
-                    <a href="../../forms/contact/contact.component.ts">Vegye fel velünk a kapcsolatot</a>
+                    <a routerLink="../Contact">Vegye fel velünk a kapcsolatot</a>
                 </div>
             </div>
         </div>
@@ -32,7 +32,6 @@
                     <div class="section-heading">
                         <h2>Kiemelt <em>ajánlatok</em></h2>
                         <img src="../../../assets/HomeImages/line-dec.png" alt="">
-                        <!-- <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p> -->
                     </div>
                 </div>
             </div>
@@ -80,7 +79,7 @@
                             </p>
 
                             <ul class="social-icons">
-                                <li><a href="car-details.html">+ Mutass többet</a></li>
+                                <li><a href="#">+ Mutass többet</a></li>
                             </ul>
                         </div>
                     </div>
@@ -104,7 +103,7 @@
                             </p>
 
                             <ul class="social-icons">
-                                <li><a href="car-details.html">+ Mutass többet</a></li>
+                                <li><a href="#">+ Mutass többet</a></li>
                             </ul>
                         </div>
                     </div>
@@ -114,7 +113,7 @@
             <br>
 
             <div class="main-button text-center">
-                <a routerLink="Models">Autók áttekintése</a>
+                <a routerLink="../Models/">Autók áttekintése</a>
             </div>
         </div>
     </section>
@@ -158,11 +157,11 @@
             <div class="row" id="tabs">
               <div class="col-lg-4">
                 <ul>
-                  <li><a href='#tabs-1'>Vezettük az új BMW M5 CS-t!</a></li>
-                  <li><a href='#tabs-2'>My BMW App</a></li>
-                  <li><a href='#tabs-3'>BMW szervíz 5+</a></li>
+                  <li><a routerLink="../Services">Vezettük az új BMW M5 CS-t!</a></li>
+                  <li><a routerLink="../Services">My BMW App</a></li>
+                  <li><a routerLink="../Services">BMW szervíz 5+</a></li>
                   <div class="main-rounded-button">
-                      <a routerLink="../Blog/" routerLinkActive="">Mutass többet</a>
+                      <a routerLink="../Services">Mutass többet</a>
                     </div>
                 </ul>
               </div>
@@ -190,25 +189,20 @@
         </div>
     </section>
     <!-- ***** Blog End ***** -->
-
-    <!-- ***** Call to Action Start ***** -->
     <section class="section section-bg" id="call-to-action" style="background-image: url(../../../assets/HomeImages/banner-image-1-1920x500.jpg)">
         <div class="container mr-auto">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
                         <h2>Lépjen kapcsolatba<em>velünk!</em></h2>
-                        <!-- <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p> -->
                         <div class="main-button">
-                            <a href="contact.html">Contact us</a>
+                            <a routerLink="../Contact">Vegye fel velünk a kapcsolatot</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Call to Action End ***** -->    
-
     <script src="assets/js/scrollreveal.min.js"></script>
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>

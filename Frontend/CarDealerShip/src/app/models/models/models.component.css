@@ -4,6 +4,7 @@
     gap: 3%;
     justify-content: center;
     margin: 7rem;
+    text-align: center;
 }
 
 .container {
@@ -12,7 +13,7 @@
 .img img{
     width: 100%;
     height: 20rem;
-    display: block;
+display: block;
 }
 
 .models-list p{
@@ -21,6 +22,7 @@
 }
 
 .models-img img {
+    max-width: 320px;
     height: 12rem;
     width: auto;
 }

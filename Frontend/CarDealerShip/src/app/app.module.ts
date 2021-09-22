@@ -18,6 +18,7 @@ import { Model5Component } from './models/model5/model5.component';
 import { Model3Component } from './models/model3/model3.component';
 import { Model7Component } from './models/model7/model7.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ServicesComponent } from './forms/services/services.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
     Model5Component,
     Model3Component,
     Model7Component,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,

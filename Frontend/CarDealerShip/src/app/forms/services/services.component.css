@@ -1,0 +1,30 @@
+.services-wrapper{
+    max-width: 1200px;
+    width: 90%;
+    margin:70px auto;
+}
+
+.service {
+    max-width: 940px;
+    width: 95%;
+    margin:20px auto;
+}
+
+img {
+    box-shadow: 0 0 20px black;
+    height: auto;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    margin: 1.2rem 0 1.5rem 0;
+    color: #ed563b;
+    font-weight: 700;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 5rem;
+    line-height: 2em;
+}

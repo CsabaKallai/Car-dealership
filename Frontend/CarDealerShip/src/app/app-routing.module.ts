@@ -4,6 +4,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './forms/about/about.component';
 import { BlogComponent } from './forms/blog/blog.component';
 import { ContactComponent } from './forms/contact/contact.component';
+import { ServicesComponent } from './forms/services/services.component';
 import { LoginComponent } from './login/login.component';
 import { ModelIComponent } from './models/model-i/model-i.component';
 import { ModelMComponent } from './models/model-m/model-m.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'About', component: AboutComponent},
   {path: 'Home', component: HomeComponent},
   {path: 'Blog', component: BlogComponent},
+  {path: 'Services', component: ServicesComponent},
   {path: 'Models', component: ModelsComponent},
   {path: 'ModelX', component: ModelXComponent},
   {path: 'ModelM', component: ModelMComponent},

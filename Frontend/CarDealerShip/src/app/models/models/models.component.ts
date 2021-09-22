@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ModelsComponent implements OnInit {
 
   ngOnInit(): void {
+    window.scrollTo(0,0);
   }
 
 }
